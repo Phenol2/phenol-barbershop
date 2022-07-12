@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"
+//import { NavLink } from "react-router-dom"
 import { useEffect } from "react"
 
 import classes from "./Home.module.css"
@@ -171,11 +171,11 @@ dots.forEach(dot => {
   </div>
    </div>
         </div>
-        <NavLink to = "/bookus">
+        {/*<NavLink to = "/bookus">*/}
         <button>
           BOOK AN APPOINTMENT
         </button>
-        </NavLink>
+        {/*</NavLink>*/}
     </section>
     )
 }

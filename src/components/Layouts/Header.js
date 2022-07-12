@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { NavLink } from "react-router-dom"
+//import { NavLink } from "react-router-dom"
 
 import Logo from "../../assets/Phenol.png"
 import Cart from "../../assets/cart.png"
@@ -37,9 +37,9 @@ const Header = () => {
         <div>
             <img src ={Cart} alt = "cart" />
         </div>
-        <NavLink to = "/bookus">
+        {/*<NavLink to = "/bookus">*/}
         <button>BOOK US</button>
-        </NavLink>
+        {/*</NavLink>*/}
       </div>
     
     </header>

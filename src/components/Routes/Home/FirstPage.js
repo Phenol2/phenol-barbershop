@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"
+//import { NavLink } from "react-router-dom"
 
 import classes from "./Home.module.css"
 
@@ -29,9 +29,9 @@ const FirstPage = ()  => {
        <Pictures />
       
       <div className={classes.btns} >
-      <NavLink to = "/bookus">
+   {  /* <NavLink to = "/bookus">*/}
         <button className={classes.btnClose}> BOOK US </button>
-        </NavLink>
+        {/*</NavLink>*/}
           <button className={classes.btnOpen}> EXPLORE </button>
       </div>
       </section>

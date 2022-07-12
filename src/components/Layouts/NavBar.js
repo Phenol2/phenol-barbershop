@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom"
 import classes from "./NavBar.module.css"
+import styles from "./Header.module.css"
+import Logo from "../../assets/Phenol.png"
 
 
 const NavBar = ({ isNavActive, setIsNavActive }) => {
@@ -13,52 +15,52 @@ const NavBar = ({ isNavActive, setIsNavActive }) => {
     <div className = {classes[ `${isNavActive ? "active" : "nav-list"}`]} >
       <NavLink to = "/" 
       style={({isActive}) => {
-       return { backgroundColor: isActive ? "#083865" : "#062943"};
+       return { backgroundColor: isActive ? "#5d4037" : "#062943"};
      }} 
      onClick = {closeNavHandler}
      className = {classes.nav}
      >
          Home
       </NavLink> 
-      <NavLink to = "/about" 
+      <NavLink to = "#" 
       style={({isActive}) => {
-       return { backgroundColor: isActive ? "#083865" : "#062943"};
+       return { backgroundColor: isActive ? "#5d4037" : "#062943"};
      }} 
      className = {classes.nav} 
      onClick = {closeNavHandler}
      >
        About 
       </NavLink>
-      <NavLink to = "/services" 
+      <NavLink to = "#" 
       style={({isActive}) => {
-       return { backgroundColor: isActive ? "#083865" : "#062943"};
+       return { backgroundColor: isActive ? "#5d4037" : "#062943"};
      }} 
      className = {classes.nav}
      onClick = {closeNavHandler}
      >
          Service 
       </NavLink> 
-      <NavLink to = "/bookus" 
+      <NavLink to = "#" 
       style={({isActive}) => {
-       return { backgroundColor: isActive ? "#083865" : "#062943"};
+       return { backgroundColor: isActive ? "#5d4037" : "#062943"};
      }} 
      className = {classes.nav}
      onClick = {closeNavHandler}
      >
         Appointment 
          </NavLink> 
-      <NavLink to = "/gallery" 
+      <NavLink to = "#" 
       style={({isActive}) => {
-       return { backgroundColor: isActive ? "#083865" : "#062943"};
+       return { backgroundColor: isActive ? "#5d4037" : "#062943"};
      }} 
      className = {classes.nav} 
      onClick = {closeNavHandler}
      >   
          Gallery 
          </NavLink> 
-      <NavLink to = "/shop" 
+      <NavLink to = "#" 
       style={({isActive}) => {
-       return { backgroundColor: isActive ? "#083865" : "#062943"};
+       return { backgroundColor: isActive ? "#5d4037" : "#062943"};
      }} 
      className = {classes.nav}
      onClick = {closeNavHandler}
@@ -67,7 +69,7 @@ const NavBar = ({ isNavActive, setIsNavActive }) => {
       </NavLink> 
       
       <div className={classes.down}>
-        <div>Logo</div>
+        <div className={styles["logo"]}>   <img src ={Logo} alt = "logo" /></div>
         <button>
           BOOK US
         </button>

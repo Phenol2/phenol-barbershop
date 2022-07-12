@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"
+//import { NavLink } from "react-router-dom"
 
 import classes from "./Home.module.css"
 
@@ -28,12 +28,12 @@ const ThirdPage = () => {
           A barber is a person whose work is to cut, dress, groom, style, and shave men's and boys hair. A barber's place of work is known as barber's shop. Phenol Barbershop was established in the year 1998, we have a passionate commitment to men's grooming and haircuts. Styling  and shaving for men.
         </p>
         
-      <NavLink to="/about" className={classes["nav"]}>
+      {/*<NavLink to="/about" className={classes["nav"]}>*/}
          <div className={classes["readmore-btn"]}>
               More About Us 
               <img src={ArrowRight} alt="arrow right" />
             </div>
-        </NavLink>  
+        {/*</NavLink>*/}  
     
             <img src={Carter} alt="tools" className={classes["tools"]}/>
              <img src={Clipper} alt="clippers" className={classes["clipper"]}/>

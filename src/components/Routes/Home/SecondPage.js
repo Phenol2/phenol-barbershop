@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"
+//import { NavLink } from "react-router-dom"
 
 import classes from "./Home.module.css"
 
@@ -31,12 +31,14 @@ const SecondPage = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             </p>
              <div className={classes["price"]}>
-             <NavLink to="/services" className={classes["nav"]}>
+             {/*<NavLink to="/services" className={classes["nav"]}>*/}
+             <div className={classes["nav"]}>
             <div className={classes["readmore-btn"]}>
               Read More 
               <img src={ArrowRight} alt="arrow right" />
             </div>
-            </NavLink>
+            {/*</NavLink>*/}
+            </div>
             <div> $ 40</div>
             </div>
             
@@ -57,12 +59,14 @@ const SecondPage = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
              <div className={classes["price"]}>
-                 <NavLink to="/services" className={classes["nav"]}>
+                            {/*<NavLink to="/services" className={classes["nav"]}>*/}
+             <div className={classes["nav"]}>
             <div className={classes["readmore-btn"]}>
               Read More 
               <img src={ArrowRight} alt="arrow right" />
             </div>
-            </NavLink>
+            {/*</NavLink>*/}
+            </div>
               <div> $ 30</div>
             </div>
           </div>
@@ -80,24 +84,26 @@ const SecondPage = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <div className={classes["price"]}>
-                 <NavLink to="/services" className={classes["nav"]}>
+                              {/*<NavLink to="/services" className={classes["nav"]}>*/}
+             <div className={classes["nav"]}>
             <div className={classes["readmore-btn"]}>
               Read More 
               <img src={ArrowRight} alt="arrow right" />
             </div>
-            </NavLink>
+            {/*</NavLink>*/}
+            </div>
               <div> $ 50</div>
             </div>
           </div>
         </div>
         
-        <NavLink to = "/services" >
+        {/*<NavLink to = "/services" >*/}
         <div className={classes["action-btn"]}>
           <button>
            View More Services
           </button>
         </div>
-        </NavLink>
+        {/*</NavLink>*/}
      </section>
     )
 }

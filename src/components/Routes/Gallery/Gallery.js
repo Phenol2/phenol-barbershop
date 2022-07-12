@@ -1,39 +1,39 @@
 
 
-const Gallery = () => {
+/*const Gallery = () => {
   return (
     <div>Gallery</div>
     )
 }
 
 
-export default Gallery;
+export default Gallery;*/
+import classes from "./Gallery.module.css"
 
-/*import {GoogleMap, useLoadScript, Marker} from "@react-google-map/api"
+import {GoogleMap, useLoadScript, Marker} from "@react-google-maps/api"
 
 const Maps = () => {
+   const {isLoaded} = useLoadScript({googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY})
   return (
-    const {isLoaded} = useLoadScript({googleMapApiKey: ""})
+   
     //to check if map is loaded
-    if(!isLoaded){
-      return <div> Loading...</div>
-    }
-    return <Map />
+    !isLoaded ? <div> Loading...</div> : <Map />
     )
 }
 
 const Map = () => {
   return (
     <GoogleMap 
-      zoom= {zoom}
-      center={centerObject}
-      mapContainerClassName={classname}
+      zoom= {10}
+      center={{lat: 47.44, lng: -122.176}}
+      mapContainerClassName={classes["map"]}
     >
       <Marker 
-        position= {position}
+        //position= {posi
       />
     
     </GoogleMap >
     )
-})*/
+}
 
+export default Maps

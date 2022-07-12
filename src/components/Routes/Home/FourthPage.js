@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"
+//import { NavLink } from "react-router-dom"
 
 import classes from "./Home.module.css"
 
@@ -28,12 +28,12 @@ const FourthPage = () => {
         </div>
         </div>
         
-            <NavLink to="/gallery" className={classes["nav"]}>
+            {/*<NavLink to="/gallery" className={classes["nav"]}>*/}
          <div className={classes["readmore-btn"]}>
               More From Our Gallery 
               <img src={ArrowRight} alt="arrow right" />
             </div>
-        </NavLink>  
+        {/*</NavLink>*/}  
     </section>
     )
 }
