@@ -1,0 +1,540 @@
+.main{
+  padding: 10px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.main h2{
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 30px;
+  color: #8d6e63;
+  line-height: 45px;
+  text-align: left;
+}
+
+.main h2 span{
+  text-decoration: underline;
+  padding: 10px 0px;
+  /*color: #F05A74;*/
+  color: #5d4037;
+}
+
+.main p{
+  padding: 10px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #8d6e63;
+  font-weight: 500;
+  text-align: left;
+  text-align: justify;
+}
+
+/*--- FIRST PAGE COMPONENT --- */
+
+.first-page{
+  position: relative;
+  width: 100vw;
+  padding: 20px 10px 5px 10px;
+  overflow: hidden;
+}
+
+.btns{
+  width: 100%;
+  padding: 20px ;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.btnClose{
+  background-color: #0c498a;
+  background-color: #5d4037;
+  border: 2px solid #5d4037;
+  padding: 12px 22px;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  border-radius: 10px;
+}
+
+.btnOpen{
+  background-color: transparent;
+  border: 2px solid #5d4037;
+  padding: 12px 22px;
+  color: #5d4037;
+  font-weight: bold;
+  outline: none;
+  border-radius: 10px;
+}
+
+#two{
+  position: absolute;
+  top: 79%;
+  left: 1%;
+  transform: translate(-25%, -19%);
+  z-index: -1;
+}
+
+#three{
+  position: absolute;
+  top: 34%;
+  left: 53%;
+  z-index: -1;
+}
+
+.blobs { 
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  top: 4%;
+  left: 51%;
+  transform: translate(15%, -25%);
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml;utf8, %3Csvg width=%22100%25%22 height=%22100%25%22 viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 %3E %3Cdefs%3E %3Cfilter id=%22grain%22 x=%22-50vw%22 y=%22-50vh%22 width=%22100vw%22 height=%22100vh%22%3E %3CfeFlood flood-color=%22%23ffffff%22 result=%22neutral-gray%22 %2F%3E %3CfeTurbulence in=%22neutral-gray%22 type=%22fractalNoise%22 baseFrequency=%222.5%22 numOctaves=%22100%22 stitchTiles=%22stitch%22 result=%22noise%22 %2F%3E %3CfeColorMatrix in=%22noise%22 type=%22saturate%22 values=%220%22 result=%22destaturatedNoise%22 %3E%3C%2FfeColorMatrix%3E %3CfeComponentTransfer in=%22desaturatedNoise%22 result=%22theNoise%22%3E %3CfeFuncA type=%22table%22 tableValues=%220 0 0.1 0%22%3E%3C%2FfeFuncA%3E %3C%2FfeComponentTransfer%3E %3CfeBlend in=%22SourceGraphic%22 in2=%22theNoise%22 mode=%22soft-light%22 result=%22noisy-image%22 %2F%3E %3C%2Ffilter%3E %3Cpattern id=%22pattern%22 patternUnits=%22userSpaceOnUse%22 width=%2242.5%22 height=%2242.5%22 viewBox=%220 0 100 100%22 fill=%22%23906922%22 %3E %3Ccircle cx=%2250%22 cy=%2250%22 r=%2212.5%22 %2F%3E %3C%2Fpattern%3E %3CclipPath id=%22shape%22%3E %3Cpath fill=%22currentColor%22 d=%22M704.5%2C677.5Q500%2C855%2C279%2C677.5Q58%2C500%2C279%2C272Q500%2C44%2C704.5%2C272Q909%2C500%2C704.5%2C677.5Z%22%3E%3C%2Fpath%3E %3C%2FclipPath%3E %3C%2Fdefs%3E %3Cg filter=%22url(%23grain)%22 clip-path=%22url(%23shape)%22%3E %3Cpath fill=%22url(%23pattern)%22 d=%22M704.5%2C677.5Q500%2C855%2C279%2C677.5Q58%2C500%2C279%2C272Q500%2C44%2C704.5%2C272Q909%2C500%2C704.5%2C677.5Z%22 %2F%3E %3C%2Fg%3E %3C%2Fsvg%3E");
+}
+
+/*--- SECOND PAGE COMPONENT --- */
+
+.services{
+  margin-left: -8px;
+  width: 100vw;
+  background-color: #efebe9;
+  margin-top: 30px;
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.services .title{
+  width: 100%;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.services .title h3{
+  font-size: 35px;
+  color: #d7ccc8;
+}
+
+.services .title h6{
+  font-size: 20px;
+  color: #5d4037;
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translate(-20%, -5%);
+  z-index: 15;
+}
+
+.services p{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.service-desc p{
+  text-align: justify;
+  line-height: 25px;
+}
+
+.service-desc h4{
+  color: #5d4037;
+}
+
+.service-one{
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.service-img{
+  width: 45px;
+  height: 45px;
+  margin: 10px auto;
+}
+
+.service-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#change{
+  background-color: #e0e0e0;
+}
+
+.price{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: #5d4037;
+}
+
+.price div{
+  font-weight: bold;
+}
+
+.action-btn{
+  margin-top: 30px;
+}
+
+.action-btn button{
+  background-color: #5d4037;
+  border: none;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bolder;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.readmore-btn{
+  margin: 10px 0px 20px 0px;
+  font-weight: 500;
+  color: #5d4037;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.readmore-btn svg{
+  background-color: yellow;
+}
+
+.readmore-btn img{
+  width: 25px;
+  height: 10px;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+/*--- THIRD PAGE COMPONENT --- */
+
+.about-section{
+  margin-left: -8px;
+  width: 100vw;
+  margin-top: 10px;
+  padding: 20px 22px;
+  text-align: center;
+  position: relative;
+}
+
+.about-section .title{
+  width: 100%;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.about-section .title h3{
+  font-size: 35px;
+  color: #d7ccc8;
+  letter-spacing: 1.8px;
+}
+
+.about-section .title h6{
+  font-size: 20px;
+  color: #5d4037;
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translate(55%, 5%);
+  z-index: 15;
+}
+
+.top{
+  margin-block: 20px;
+  padding: 0px;
+  width: 100vw;
+  margin-left: -24px
+}
+
+.top img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.about-section .about-desc h4{
+  color: #d7ccc8;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.about-section .about-desc h1{
+  font-size: 28px;
+  color: #5d4037;
+  text-align: left;
+}
+
+.about-section p{
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.about-section .tools{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: 3%;
+  right: 4%;
+  border: 4px solid #8d6e63;
+}
+
+.about-section .clipper{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: 3%;
+  left: 4%;
+  border: 4px solid #d7ccc8;
+}
+
+.nav{
+  text-decoration: none;
+}
+
+
+/*--- FOURTH PAGE COMPONENT --- */
+
+.gallery-section{
+  background-color: #efebe9;
+  margin-left: -8px;
+  width: 100vw;
+  margin-top: 10px;
+  padding: 20px 22px;
+  text-align: center;
+  position: relative;
+}
+
+.gallery-section p{
+  text-align: center;
+  margin-block: 10px;
+}
+
+.gallery-section .title{
+  width: 100%;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.gallery-section .title h3{
+  font-size: 35px;
+  color: #d7ccc8;
+  letter-spacing: 1.8px;
+}
+
+.gallery-section .title h6{
+  font-size: 20px;
+  color: #5d4037;
+  position: absolute;
+  top: 50%;
+  left: 60px;
+  transform: translate(55%, 5%);
+  z-index: 15;
+}
+
+.gallery-section .snapshots{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gallery-section .snapshots .snapshot-one{
+  width: 340px;
+  height: 280px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.gallery-section .snapshots .snapshot-one img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.snapshot-two{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-inline: auto;
+}
+
+.snapshot-two img{
+  width: 160px;
+  height: 120px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+/*--- FOURTH PAGE COMPONENT --- */
+
+.team-section{
+  margin-left: -8px;
+  width: 100vw;
+  margin-top: 10px;
+  padding: 20px 22px;
+  text-align: center;
+  position: relative;
+}
+
+.team-section p{
+  text-align: center;
+  margin-block: 10px;
+  font-weight: bold;
+  color: #5d4037;
+  font-size: 18px;
+  line-height: 24px;
+  opacity: 0.8;
+}
+
+.team-section .title{
+  width: 100%;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.team-section button{
+  background-color: #5d4037;
+  border: none;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bolder;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  outline: none;
+  border-radius: 6px;
+}
+
+.team-section .title h3{
+  font-size: 35px;
+  color: #d7ccc8;
+  letter-spacing: 1.8px;
+}
+
+.team-section .title h6{
+  padding: 5px;
+  font-size: 20px;
+  color: #5d4037;
+  position: absolute;
+  top: -26%;
+  left: 22px;
+  transform: translate(55%, 5%);
+  z-index: 15;
+}
+
+
+
+.img-wrapper{
+  position: relative;
+  border: 4px solid #d7ccc8;
+  width: 300px;
+  height: 320px;
+  margin: 20px auto 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.images{
+  width: 100%;
+  height: 110%;
+  object-fit: cover;
+  
+}
+
+.member-wrapper{
+  margin-top: 40px;
+}
+
+p.together{
+  font-weight: 600;
+  font-size: 13px;
+  text-align: center;
+  color: #5d4037;
+}
+
+/* --- SUBSCRIBE --- */
+
+.subscribe{
+  width: 100vw;
+  background-color: #d7ccc8;
+  padding: 30px 15px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: -10px;
+}
+
+.subscribe h5{
+  font-size: 16px;
+  color: #8d6e63;
+}
+
+.subscribe p{
+  font-size: 22px;
+  color: #5d4037;
+  text-align: center;
+  font-weight: bolder;
+  margin-block: 20px;
+  line-height: 28px;
+}
+
+.subscribe .form {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.subscribe .form input{
+  width: 100%;
+  height: 100%;
+  padding: 18px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: #5d4037;
+  font-weight: 600;
+}
+
+.subscribe .form button{
+  position: absolute;
+  padding: 14px 16px;
+  text-transform: uppercase;
+  right: 3px;
+  z-index: 25;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  background-color: #d7ccc8;
+  color: #5d4037;
+}
+
+::placeholder{
+  font-weight: bold;
+  font-size: 12px;
+  color: #d7ccc8;
+}
+

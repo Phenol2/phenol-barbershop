@@ -1,0 +1,51 @@
+.imgs-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-block: 30px;
+}
+
+.image-wrapper{
+  position: relative;
+  width: 40px;
+  height: 300px;
+  border-radius: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  transition: 1s ease all;
+}
+
+.image-wrapper h4{
+  width: 120px;
+  position: absolute;
+  bottom: 10%;
+  left: 40%;
+  color: white;
+  font-weight: bold;
+  z-index: 5;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 5px 10px;
+  backdrop-filter: blur(4px);
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.5s ease-in all;
+}
+
+.my-class{
+  width: 120%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.image-wrapper.active {
+  width: 210px;
+  transition: 1s ease all;
+  transform: scaleY(0.9);
+}
+
+.image-wrapper.active h4{
+  opacity: 1;
+  transition: 0.5 ease-in-out all;
+}

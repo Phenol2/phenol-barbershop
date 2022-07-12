@@ -1,0 +1,59 @@
+.nav-list {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 9.5%;
+  left: 0;
+  z-index: 1000;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  transition: all 1s ease-out;
+  background-color: #062943;
+}
+
+
+.active {
+  width: 100vw;
+  height: 83.5vh;
+  position: fixed;
+  top: 9.5%;
+  left: 0;
+  z-index: 100;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  transition: all 1s ease-out;
+  background-color: #fff;
+}
+
+.nav {
+  display: block;
+  padding: 2rem 1rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+  width: 100vw;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+
+.down{
+  margin-top: 30px;
+  display: flex;
+  width: inherit;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.down div{
+  color: #0c498a;
+  font-weight: bold;
+}
+
+.down button{
+  background-color: #8d6e63;
+  border: none;
+  padding: 10px 18px;
+  color: white;
+  font-weight: bold;
+  outline: none;
+}
