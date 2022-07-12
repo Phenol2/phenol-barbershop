@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/phenol-salon/static/css/main.ea537e4e.css",
-    "main.js": "/phenol-salon/static/js/main.2571833e.js",
+    "main.js": "/phenol-salon/static/js/main.0eb72330.js",
     "static/media/tal.jpg": "/phenol-salon/static/media/tal.c114c14dc6766acd16be.jpg",
     "static/media/mitchell.jpg": "/phenol-salon/static/media/mitchell.8f069d7ef71306fa5b4a.jpg",
     "static/media/agustin.jpg": "/phenol-salon/static/media/agustin.2238b72b9fbe0108bc71.jpg",
@@ -24,10 +24,10 @@
     "static/media/facebook-square-brands.svg": "/phenol-salon/static/media/facebook-square-brands.4572f3143062ec3dfd7aea11e6bcf578.svg",
     "static/media/facebook-f-brands.svg": "/phenol-salon/static/media/facebook-f-brands.c719a013d9be7d611d2dd9e1fa4ecf06.svg",
     "main.ea537e4e.css.map": "/phenol-salon/static/css/main.ea537e4e.css.map",
-    "main.2571833e.js.map": "/phenol-salon/static/js/main.2571833e.js.map"
+    "main.0eb72330.js.map": "/phenol-salon/static/js/main.0eb72330.js.map"
   },
   "entrypoints": [
     "static/css/main.ea537e4e.css",
-    "static/js/main.2571833e.js"
+    "static/js/main.0eb72330.js"
   ]
 }
